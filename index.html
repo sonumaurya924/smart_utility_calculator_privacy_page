@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Privacy Policy - Smart Utility Calculator</title>
 
     <style>
@@ -14,44 +14,47 @@
 
         body {
             font-family: Arial, sans-serif;
-            background: #f5f7fb;
+            background: #f4f6fb;
             color: #333;
-            line-height: 1.7;
+            line-height: 1.8;
+            padding: 20px;
         }
 
         .container {
-            max-width: 900px;
-            margin: 40px auto;
+            max-width: 950px;
+            margin: auto;
             background: #ffffff;
-            border-radius: 16px;
+            border-radius: 18px;
             padding: 40px;
-            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+            box-shadow: 0 8px 30px rgba(0,0,0,0.08);
         }
 
         h1 {
             color: #4F46E5;
-            margin-bottom: 10px;
             text-align: center;
+            margin-bottom: 10px;
         }
 
-        .effective-date {
+        .updated-date {
             text-align: center;
             color: #666;
-            margin-bottom: 30px;
+            margin-bottom: 35px;
+            font-size: 15px;
         }
 
         h2 {
             color: #222;
             margin-top: 30px;
-            margin-bottom: 10px;
+            margin-bottom: 12px;
+            font-size: 22px;
         }
 
         p {
-            margin-bottom: 15px;
+            margin-bottom: 14px;
         }
 
         ul {
-            padding-left: 20px;
+            margin-left: 20px;
             margin-bottom: 15px;
         }
 
@@ -60,11 +63,11 @@
         }
 
         .contact-box {
-            background: #f3f4ff;
+            background: #eef1ff;
             border-left: 5px solid #4F46E5;
             padding: 20px;
-            border-radius: 10px;
-            margin-top: 20px;
+            border-radius: 12px;
+            margin-top: 15px;
         }
 
         footer {
@@ -76,8 +79,11 @@
 
         @media(max-width: 768px) {
             .container {
-                margin: 20px;
                 padding: 25px;
+            }
+
+            h2 {
+                font-size: 18px;
             }
         }
     </style>
@@ -89,125 +95,163 @@
 
         <h1>Privacy Policy</h1>
 
-        <p class="effective-date">
-            Effective Date: June 1, 2026
-        </p>
+        <div class="updated-date">
+            Last Updated: May 2026
+        </div>
 
         <p>
-            Thank you for using <strong>Smart Utility Calculator</strong>.
-            Your privacy is important to us. This Privacy Policy explains
-            how our application handles information when you use the app.
+            This Privacy Policy describes how
+            <strong>Smart Utility Calculator</strong>
+            ("we", "our", or "the app") handles information
+            when you use our mobile application.
         </p>
 
         <h2>1. Information We Collect</h2>
 
         <p>
-            Smart Utility Calculator does <strong>not collect, store,
-            or share any personal information</strong> from users.
+            Smart Utility Calculator does
+            <strong>NOT collect, store, or transmit any personally identifiable information (PII).</strong>
         </p>
 
-        <p>We do not collect:</p>
+        <p>All calculations are performed locally on your device.</p>
 
         <ul>
-            <li>Name</li>
-            <li>Email address</li>
-            <li>Phone number</li>
-            <li>Location data</li>
-            <li>Personal identity information</li>
-            <li>Login or account details</li>
+            <li>Calculation history is stored only on your device using local storage (SharedPreferences).</li>
+            <li>Favorites are stored locally on your device.</li>
+            <li>Theme preferences (Light/Dark mode) are stored locally.</li>
+            <li>We do not require login or account creation.</li>
         </ul>
 
-        <h2>2. Advertisements (Google AdMob)</h2>
+        <h2>2. Advertising</h2>
 
         <p>
-            Our app uses <strong>Google AdMob</strong> to display ads.
-            AdMob may collect certain anonymous information to provide
-            personalized or non-personalized advertisements.
+            This app uses
+            <strong>Google AdMob</strong>
+            to display advertisements.
         </p>
 
         <p>
-            This may include:
+            Google AdMob may collect and use certain
+            device information to display relevant
+            advertisements. This data collection
+            is governed by Google’s Privacy Policy.
+        </p>
+
+        <p>
+            You may opt out of personalized advertising
+            through your device settings:
         </p>
 
         <ul>
-            <li>Advertising ID</li>
-            <li>Device information</li>
-            <li>App interaction data</li>
-            <li>Approximate location (if enabled by device settings)</li>
+            <li>Google Settings → Ads → Opt out of Ad Personalization</li>
+        </ul>
+
+        <h2>3. Internet Access</h2>
+
+        <p>
+            The app requests internet permission
+            <strong>ONLY</strong> for:
+        </p>
+
+        <ul>
+            <li>Loading advertisements through Google AdMob</li>
+            <li>Refreshing currency exchange rates from a public API</li>
         </ul>
 
         <p>
-            Please review Google’s Privacy Policy for more information:
+            Most features of Smart Utility Calculator
+            work fully offline and internet access
+            is not required for normal calculator usage.
         </p>
 
-        <p>
-            https://policies.google.com/privacy
-        </p>
-
-        <h2>3. Internet Usage</h2>
+        <h2>4. Third-Party Services</h2>
 
         <p>
-            Smart Utility Calculator uses an internet connection only for
-            specific features such as the <strong>Currency Converter</strong>,
-            which retrieves live exchange rate information from third-party APIs.
-        </p>
-
-        <p>
-            No personal information is transmitted or stored during this process.
-        </p>
-
-        <h2>4. Data Security</h2>
-
-        <p>
-            Since we do not collect or store personal data,
-            your privacy and security risks are minimized.
-        </p>
-
-        <h2>5. Children's Privacy</h2>
-
-        <p>
-            Smart Utility Calculator does not knowingly collect personal
-            information from children under the age of 13.
-        </p>
-
-        <h2>6. Third-Party Services</h2>
-
-        <p>
-            Our app may use third-party services including:
+            We use the following third-party services:
         </p>
 
         <ul>
             <li>Google AdMob (Advertisements)</li>
-            <li>Currency Exchange APIs (for currency conversion)</li>
+            <li>Open Exchange Rates API (Optional Currency Updates)</li>
         </ul>
 
-        <h2>7. Changes to This Privacy Policy</h2>
+        <p>
+            These third-party services may have
+            their own privacy policies regarding
+            how they process information.
+        </p>
+
+        <h2>5. Data Storage</h2>
 
         <p>
-            We may update this Privacy Policy from time to time.
-            Any changes will be reflected on this page with an updated
-            effective date.
+            All user data such as:
+        </p>
+
+        <ul>
+            <li>Calculation history</li>
+            <li>Favorite calculators</li>
+            <li>Theme preferences</li>
+        </ul>
+
+        <p>
+            is stored
+            <strong>only on your device</strong>
+            and is
+            <strong>never transmitted to our servers.</strong>
+        </p>
+
+        <p>
+            You may clear locally stored app data
+            at any time from the app settings.
+        </p>
+
+        <h2>6. Children's Privacy</h2>
+
+        <p>
+            This app does not knowingly collect
+            personal information from children
+            under the age of 13.
+        </p>
+
+        <p>
+            Smart Utility Calculator is a utility
+            tool suitable for users of all ages.
+        </p>
+
+        <h2>7. Changes to This Policy</h2>
+
+        <p>
+            We may update this Privacy Policy
+            from time to time.
+        </p>
+
+        <p>
+            Any changes will be reflected by updating
+            the <strong>Last Updated</strong> date
+            at the top of this page.
         </p>
 
         <h2>8. Contact Us</h2>
 
         <div class="contact-box">
             <p>
-                If you have any questions or concerns regarding this
-                Privacy Policy, please contact us:
+                If you have any questions regarding
+                this Privacy Policy, please contact us:
             </p>
 
             <p>
-                <strong>Email:</strong>
+                <strong>Email:</strong><br>
                 sonumaurya.app@gmail.com
             </p>
         </div>
 
         <footer>
-            © 2026 Smart Utility Calculator. All Rights Reserved.
+            © 2026 Smart Utility Calculator.
+            All Rights Reserved.
         </footer>
 
     </div>
 
 </body>
 </html>
+```
